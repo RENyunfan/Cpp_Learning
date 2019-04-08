@@ -23,6 +23,7 @@ int main() {
 
     for (int i = 0; i < numb; i++) {  //多组数据循环
         R[i].doRPN();
+        R[i].calAns(); 
     }
 
     for (int i = 0; i < numb; i++) {  //多组数据输出
